@@ -1,0 +1,5 @@
+transformers 
+gradio 
+pandas 
+python-docx 
+PyPDF2

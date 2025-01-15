@@ -1,0 +1,3 @@
+Token Limit Exceeded: Both resume and job descriptions can be long. When combined, they exceed the model’s maximum token limit (typically 512 or 1024 tokens for most models), causing an IndexError or truncation warnings.
+
+Tokenizer Behavior: The tokenizer needs explicit instructions to handle truncation. If truncation isn't enabled, the tokenizer attempts to process inputs longer than the model’s limit, leading to out-of-bound indexing errors during embedding.
